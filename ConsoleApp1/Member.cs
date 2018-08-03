@@ -32,13 +32,13 @@ public class Member
         }
     }
 
-    private int dateofBirth;
-    public int DateOfBirth
+    private int dob;
+    public int DOB
     {
-        get { return dateofBirth; }
+        get { return dob; }
         set
         {
-            dateofBirth = value;
+            dob = value;
         }
     }
 
@@ -97,13 +97,12 @@ public class Member
         icNo = theIc;
         libraryNo = theLibrary;
         memberType = theType;
-        dateofBirth = theDOB;
+        dob = theDOB;
         telNo = theTel;
         address = theAddress;
         state = theState;
         postcode = thePostCode;
         country = theCountry;
     }
-
 
 }
